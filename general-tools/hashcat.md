@@ -1,5 +1,6 @@
 # Hashcat
 
+* [Website](https://hashcat.net/wiki/).
 * Hack the box  [academy](https://academy.hackthebox.com) Hashcat course on using Hashcat rocks!
 * Here is  [example hashes](https://hashcat.net/wiki/doku.php?id=example\_hashes) most hash modes that `Hashcat` supports.
 * &#x20;[hashid](https://github.com/psypanda/hashID) Software to identify the different types of hashes&#x20;
@@ -174,10 +175,72 @@ For users who don't want to struggle with compiling hcxtools from sources there 
 
 If you choose the online converter, you may need to remove some data from your dump file if the file size is too large. Most of the time, this happens when data traffic is also being recorded.
 
-For more information Visit this thread in Hashcat site ([https://hashcat.net/forum/thread-10253.html](https://hashcat.net/forum/thread-10253.html)).\
+For more information Visit this thread in Hashcat site ([https://hashcat.net/forum/thread-10253.html](https://hashcat.net/forum/thread-10253.html)).
+
+## Optimization
+
+* Optimized Kernels:\
+  This is the `-O` flag, which according to the documentation, means `Enable optimized kernels (limits password length)`. The magical password length number is generally 32, with most wordlists won't even hit that number. This can take the estimated time from days to hours, so it is always recommended to run with `-O` first and then rerun after without the `-O` if your GPU is idle.
+* Workload:\
+  This is the `-w` flag, which, according to the documentation, means `Enable a specific workload profile`. The default number is `2`, but if you want to use your computer while Hashcat is running, set this to `1`. If you plan on the computer only running Hashcat, this can be set to `3`.
+
+## Mask Attack
+
+* Mask attacks are used to generate words matching a specific pattern [Link](https://hashcat.net/wiki/doku.php?id=mask\_attack).
+
+## Hybrid Mode&#x20;
+
+* Hybrid mode is a variation of the combinator attack, wherein multiple modes can be used together for a fine-tuned wordlist creation.
+
+Mode 6 to append mask.
+
+```shell
+Staphy$ hashcat -a 6 -m 0 hybrid_hash /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt '?d?s'
+```
+
+Mode 7 to prepend mask.\
 
 
-****
+```python
+Staphy$ hashcat -a 7 -m 0 hybrid_hash_prefix -1 01 '20?1?d' /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt
+```
+
+## Creating Wordlists
+
+Tools :
+
+* Common User Passwords Profiler ([CUPP](https://github.com/Mebus/cupp)).
+* Advanced keyboard-walk [generator](https://github.com/hashcat/kwprocessor#routes) with configureable basechars, keymap and routes.
+* Standalone password candidate generator using the PRINCE algorithm [princeprocessor](https://github.com/hashcat/princeprocessor).
+* [CeWL](https://github.com/digininja/CeWL) is a Custom Word List Generator.
+* Small utilities that are useful in advanced password cracking [Hashcat-utils](https://github.com/hashcat/hashcat-utils).
+* [Crunch](https://sourceforge.net/projects/crunch-wordlist/) wordlist generator.
+
+## Rules&#x20;
+
+* The [rule-based](https://hashcat.net/wiki/doku.php?id=rule\_based\_attack#implemented\_compatible\_functions) attack is one of the most complicated of all the attack modes. The reason for this is very simple. The rule-based attack is like a **programming language** designed for password candidate generation. It has functions to modify, cut or extend words and has conditional operators to skip some, etc. That makes it the most flexible, accurate and efficient attack.
+
+### Hashcat debugging Rules
+
+```shell
+Staphy$ hashcat -r rule.txt test.txt --stdoutHashcat 
+```
+
+### Hashcat - Cracking Passwords Using Wordlists and Rule
+
+```shell
+Staphy$ hashcat -a 0 -m 100 hash /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt -r rule.txt
+```
+
+### **Hashcat - Default Rules**
+
+```shell
+Staphy$ ls -l /usr/share/hashcat/rules/
+```
+
+Hashcat provides an option to generate random rules on the fly and apply them to the input wordlist. The following command will generate 1000 random rules and apply them to each word from rockyou.txt by specifying the "-g" flag. There is no certainty to the success rate of this attack as the generated rules are not constant
+
+There are a variety of publicly available rules as well, such as the [nsa-rules](https://github.com/NSAKEY/nsa-rules), [Hob0Rules](https://github.com/praetorian-code/Hob0Rules), and the [corporate.rule](https://github.com/HackLikeAPornstar/StratJumbo/blob/master/chap3/corporate.rule) which is featured in the book [How to Hack Like a Legend](https://www.hacklikeapornstar.com/new-release-hack-like-legend/). These are curated rulesets generally targeted at common corporate Windows password policies or based on statistics and probably industry password patterns.
 
 \
 

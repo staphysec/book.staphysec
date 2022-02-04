@@ -2,7 +2,7 @@
 description: Tools and some cheatsheets
 ---
 
-# Tools
+# General Tools
 
 ## Information Gathering
 
