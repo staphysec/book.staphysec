@@ -1,7 +1,6 @@
 # Table of contents
 
 * [StaphySec](README.md)
-* [About me](about-me.md)
 * [Resources](resources.md)
 
 ## Programming and Scripting
@@ -14,25 +13,17 @@
 
 ***
 
-* [Tools](tools.md)
+* [General Tools](general-tools.md)
 
 ## Linux
 
-* [Linux privilege Escalation](linux/linux-privilege-escalation.md)
+* [EOP Linux Tools and Resources](linux/eop-linux-tools-and-resources.md)
 
 ## Windows
 
-* [Windows Privilege escalation ](windows/windows-privilege-escalation.md)
+* [EOP  Windows Tools and Resources](windows/eop-windows-tools-and-resources.md)
 * [Useful commands and Modules](windows/useful-commands-and-modules.md)
-
-## PENTESTING
-
-* [Page 3](pentesting/page-3.md)
-
-## PENTESTING Web
-
-* [Page 4](pentesting-web/page-4.md)
 
 ## Blogs
 
-* [alltheblogs](blogs/alltheblogs.md)
+* [Miscellaneous resources](blogs/miscellaneous-resources.md)

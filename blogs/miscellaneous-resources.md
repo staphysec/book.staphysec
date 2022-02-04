@@ -4,7 +4,7 @@ description: >-
   to navigate
 ---
 
-# alltheblogs
+# Miscellaneous resources
 
 ## Splunk Universal Forwarder
 
@@ -77,7 +77,7 @@ EOP:
 * [this site](https://www.microsoftpressstore.com/articles/article.aspx?p=2762082\&seqNum=2) detail many potential autorun locations on Windows systems.
 * ALPC Task Scheduler 0-Day  An-depth writeup is available [here](https://blog.grimm-co.com/2020/05/alpc-task-scheduler-0-day.html).
 * CVE-2021-36934 HiveNightmare, aka SeriousSam More information about this flaw can be found [here](https://doublepulsar.com/hivenightmare-aka-serioussam-anybody-can-read-the-registry-in-windows-10-7a871c465fa5) and [this](https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightmare.exe) exploit binary can be used to create copies of the three files to our working directory. This [script](https://github.com/GossiTheDog/HiveNightmare/blob/master/Mitigation.ps1) can be used to detect the flaw and also fix the ACL issue. Let's take a look.
-* [PoC](https://github.com/cube0x0/CVE-2021-36934) by [@cube0x0](https://twitter.com/cube0x0) can be used to perform the entire attack.
+* [PoC](https://github.com/cube0x0/CVE-2021-36934) by [@cube0x0](https://twitter.com/cube0x0) C# PoC for CVE-2021-36934/HiveNightmare/SeriousSAM.
 * CVE-2021-1675/CVE-2021-34527 PrintNightmare[This](https://github.com/cube0x0/CVE-2021-1675) version by [@cube0x0](https://twitter.com/cube0x0) can be used to execute a malicious DLL remotely or locally using a modified version of Impacket.
 * ([CVE-2020-5752](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5752))  [blog post](https://www.matteomalvica.com/blog/2020/05/21/lpe-path-traversal/)  initial discovery of the flaw.
 * This [page](https://michaelspice.net/windows/end-of-life-microsoft-windows-and-office/) has detailed listing of the end-of-life dates for Microsoft Windows and other products such as Exchange, SQL Server, and Microsoft Office.
