@@ -13,7 +13,8 @@
 
 ***
 
-* [General Tools](general-tools.md)
+* [General Tools](general-tools/README.md)
+  * [Hashcat](general-tools/hashcat.md)
 
 ## Linux
 
