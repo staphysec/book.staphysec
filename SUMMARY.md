@@ -28,3 +28,21 @@
 ## Blogs
 
 * [Miscellaneous resources](blogs/miscellaneous-resources.md)
+
+## PENTESTING
+
+* [21 - Pentesting FTP](pentesting/21-pentesting-ftp.md)
+* [22 - Pentesting SSH](pentesting/22-pentesting-ssh.md)
+* [25,465,587 - Pentesting SMTP](pentesting/25-465-587-pentesting-smtp.md)
+* [53 -  Pentesting DNS](pentesting/53-pentesting-dns.md)
+* [110,995 - Pentesting POP](pentesting/110-995-pentesting-pop.md)
+* [135 - Pentesting WMI](pentesting/135-pentesting-wmi.md)
+* [139,445 - SMB Pentesting](pentesting/139-445-smb-pentesting.md)
+* [143,993 - Pentesting IMAP](pentesting/143-993-pentesting-imap.md)
+* [161,162,10161,10162/udp - Pentesting SNMP](pentesting/161-162-10161-10162-udp-pentesting-snmp.md)
+* [623/UDP/TCP - IPMI](pentesting/623-udp-tcp-ipmi.md)
+* [1433 - Pentesting mssql](pentesting/1433-pentesting-mssql.md)
+* [2049 - NFS Pentesting](pentesting/2049-nfs-pentesting.md)
+* [3306 - Pentesting Mysql](pentesting/3306-pentesting-mysql.md)
+* [3389 - Pentesting RDP](pentesting/3389-pentesting-rdp.md)
+* [5985,5986 - WinRm](pentesting/5985-5986-winrm.md)
