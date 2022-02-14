@@ -2,6 +2,10 @@
 
 * [StaphySec](README.md)
 * [Resources](resources.md)
+* [File Transfer](file-transfer/README.md)
+  * [Windows File Transfer](file-transfer/windows-file-transfer.md)
+  * [Linux File Transfer](file-transfer/linux-file-transfer.md)
+  * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
 
 ## Programming and Scripting
 
@@ -46,3 +50,5 @@
 * [3306 - Pentesting Mysql](pentesting/3306-pentesting-mysql.md)
 * [3389 - Pentesting RDP](pentesting/3389-pentesting-rdp.md)
 * [5985,5986 - WinRm](pentesting/5985-5986-winrm.md)
+
+## Group 1
