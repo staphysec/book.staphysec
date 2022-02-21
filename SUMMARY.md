@@ -51,4 +51,15 @@
 * [3389 - Pentesting RDP](pentesting/3389-pentesting-rdp.md)
 * [5985,5986 - WinRm](pentesting/5985-5986-winrm.md)
 
-## Group 1
+## Pentesting Web
+
+* [SQL Injections](pentesting-web/sql-injections/README.md)
+  * [MySQL injection](pentesting-web/sql-injections/mysql-injection.md)
+  * [SQLmap Cheatsheet](pentesting-web/sql-injections/sqlmap-cheatsheet.md)
+* [Command injections](pentesting-web/command-injections.md)
+* [File Uploads](pentesting-web/file-uploads.md)
+* [Abusing Intermediary Applications](pentesting-web/abusing-intermediary-applications.md)
+* [SSRF](pentesting-web/ssrf.md)
+* [SSI/ESI](pentesting-web/ssi-esi.md)
+* [SSTI (Server Side Template Injection)](pentesting-web/ssti-server-side-template-injection.md)
+* [XSLT Server Side Injection (Extensible Stylesheet Languaje Transformations)](pentesting-web/xslt-server-side-injection-extensible-stylesheet-languaje-transformations.md)
