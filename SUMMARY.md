@@ -9,6 +9,7 @@
 
 ## Programming and Scripting
 
+* [Virtualenv & Switching Versions](programming-and-scripting/virtualenv-and-switching-versions.md)
 * [Python](programming-and-scripting/python.md)
 
 ## SHELLS
