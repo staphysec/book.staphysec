@@ -2,10 +2,13 @@
 
 * [StaphySec](README.md)
 * [Resources](resources.md)
+* [Brute Force - CheatSheet](brute-force-cheatsheet.md)
 * [File Transfer](file-transfer/README.md)
   * [Windows File Transfer](file-transfer/windows-file-transfer.md)
   * [Linux File Transfer](file-transfer/linux-file-transfer.md)
   * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
+* [General Tools](general-tools.md)
+  * [Hashcat](general-tools/hashcat.md)
 
 ## Programming and Scripting
 
@@ -15,11 +18,6 @@
 ## SHELLS
 
 * [Shells (Linux, Windows, Msfvenom)](shells/shells-linux-windows-msfvenom.md)
-
-***
-
-* [General Tools](general-tools.md)
-  * [Hashcat](general-tools/hashcat.md)
 
 ## Linux
 
