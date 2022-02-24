@@ -30,5 +30,7 @@ Examples:
 
 ### Custom Wordlist with hydra
 
-Please Refer to \[dada]\([#creating-wordlists](general-tools/hashcat.md#creating-wordlists "mention"))&#x20;
+Please Refer to [#creating-wordlists](general-tools/hashcat.md#creating-wordlists "mention")&#x20;
+
+
 
