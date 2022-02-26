@@ -2,6 +2,7 @@
 
 * [StaphySec](README.md)
 * [Resources](resources.md)
+* [Tricks](tricks.md)
 * [Brute Force - CheatSheet](brute-force-cheatsheet.md)
 * [File Transfer](file-transfer/README.md)
   * [Windows File Transfer](file-transfer/windows-file-transfer.md)
