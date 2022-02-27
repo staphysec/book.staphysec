@@ -10,6 +10,7 @@
   * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
 * [General Tools](general-tools.md)
   * [Hashcat](general-tools/hashcat.md)
+  * [Curl](general-tools/curl.md)
 
 ## Programming and Scripting
 
@@ -59,6 +60,9 @@
 * [Command injections](pentesting-web/command-injections.md)
 * [File Uploads](pentesting-web/file-uploads.md)
 * [Abusing Intermediary Applications](pentesting-web/abusing-intermediary-applications.md)
+* [HTTP Verb Tampering](pentesting-web/http-verb-tampering.md)
+* [IDOR](pentesting-web/idor.md)
+* [XXE - XEE - XML External Entity](pentesting-web/xxe-xee-xml-external-entity.md)
 * [SSRF](pentesting-web/ssrf.md)
 * [SSI/ESI](pentesting-web/ssi-esi.md)
 * [SSTI (Server Side Template Injection)](pentesting-web/ssti-server-side-template-injection.md)
