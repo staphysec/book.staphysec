@@ -62,6 +62,7 @@
 * [Abusing Intermediary Applications](pentesting-web/abusing-intermediary-applications.md)
 * [HTTP Verb Tampering](pentesting-web/http-verb-tampering.md)
 * [IDOR](pentesting-web/idor.md)
+* [File Inclusion / Directory Traversal](pentesting-web/file-inclusion-directory-traversal.md)
 * [XXE - XEE - XML External Entity](pentesting-web/xxe-xee-xml-external-entity.md)
 * [SSRF](pentesting-web/ssrf.md)
 * [SSI/ESI](pentesting-web/ssi-esi.md)
