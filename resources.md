@@ -2,6 +2,7 @@
 
 Main&#x20;
 
+* Hack the box!
 * [Hacktricks](https://book.hacktricks.xyz) (Pentesting  book)
 * [ippsec](https://www.youtube.com/c/ippsec) (youtube channel)
 * [ippsec.rocks](https://ippsec.rocks/?#) (ippsec videos and techniques searching)
