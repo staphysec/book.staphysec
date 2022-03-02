@@ -2,6 +2,8 @@
 
 Resources:&#x20;
 
+[Active Directory Security](https://adsecurity.org/?author=2)
+
 [Hacktricks](https://book.hacktricks.xyz/windows/active-directory-methodology)
 
 [PayloadAllTheThings ](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
