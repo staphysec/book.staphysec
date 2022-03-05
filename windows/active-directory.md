@@ -8,6 +8,10 @@ Resources:&#x20;
 
 [PayloadAllTheThings ](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
 
+[Cheatsheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet#using-ad-module)
+
+
+
 
 
 {% hint style="danger" %}
