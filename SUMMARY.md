@@ -10,15 +10,14 @@
   * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
 * [Hashcat](hashcat.md)
 * [Curl](curl.md)
-* [General Tools](general-tools.md)
 
 ## Tools
 
-* [OSINT](tools/osint.md)
+* [Information Gathering](tools/information-gathering.md)
 * [XSS](tools/xss.md)
 * [Obfuscation](tools/obfuscation.md)
 * [Credentials Theft/ Win](tools/credentials-theft-win.md)
-* [Privilege Escalation](tools/privilege-escalation.md)
+* [Content Management Systems (CMS)](tools/content-management-systems-cms.md)
 
 ## Programming and Scripting
 
@@ -37,7 +36,8 @@
 
 * [EOP  Windows Tools and Resources](windows/eop-windows-tools-and-resources.md)
 * [Useful commands and Modules](windows/useful-commands-and-modules.md)
-* [Active Directory](windows/active-directory.md)
+* [Active Directory](windows/active-directory/README.md)
+  * [Tools](windows/active-directory/tools.md)
 
 ## Blogs
 
