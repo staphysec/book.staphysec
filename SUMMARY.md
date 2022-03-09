@@ -8,9 +8,9 @@
   * [Windows File Transfer](file-transfer/windows-file-transfer.md)
   * [Linux File Transfer](file-transfer/linux-file-transfer.md)
   * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
+* [Hashcat](hashcat.md)
+* [Curl](curl.md)
 * [General Tools](general-tools.md)
-  * [Hashcat](general-tools/hashcat.md)
-  * [Curl](general-tools/curl.md)
 
 ## Programming and Scripting
 
