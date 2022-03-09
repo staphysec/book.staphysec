@@ -12,6 +12,14 @@
 * [Curl](curl.md)
 * [General Tools](general-tools.md)
 
+## Tools
+
+* [OSINT](tools/osint.md)
+* [XSS](tools/xss.md)
+* [Obfuscation](tools/obfuscation.md)
+* [Credentials Theft/ Win](tools/credentials-theft-win.md)
+* [Privilege Escalation](tools/privilege-escalation.md)
+
 ## Programming and Scripting
 
 * [Virtualenv & Switching Versions](programming-and-scripting/virtualenv-and-switching-versions.md)
