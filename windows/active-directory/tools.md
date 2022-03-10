@@ -11,3 +11,5 @@ This [document](https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.
 ### Cypher Queries
 
 A Cypher reference card showing commands and their syntax can be found [here](https://neo4j.com/docs/cypher-refcard/current/).
+
+THE DOG WHISPERER'S [Book](https://ernw.de/download/BloodHoundWorkshop/ERNW\_DogWhispererHandbook.pdf).
