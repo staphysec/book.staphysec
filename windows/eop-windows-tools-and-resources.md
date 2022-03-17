@@ -6,6 +6,8 @@ Best tool to look for privilege escalation [WinPEASS](https://github.com/carlosp
 
 [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#windows-version-and-configuration) EOP.
 
+Compiled [binaries](https://github.com/r3motecontrol/Ghostpack-CompiledBinaries)
+
 ### Useful Tools :&#x20;
 
 * [Seatbelt](https://github.com/GhostPack/Seatbelt)  is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
