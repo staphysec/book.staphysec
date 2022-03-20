@@ -4,6 +4,7 @@
 * Hack the box  [academy](https://academy.hackthebox.com) Hashcat course on using Hashcat rocks!
 * Here is  [example hashes](https://hashcat.net/wiki/doku.php?id=example\_hashes) most hash modes that `Hashcat` supports.
 * &#x20;[hashid](https://github.com/psypanda/hashID) Software to identify the different types of hashes&#x20;
+* [CeWL](https://github.com/digininja/CeWL) to scan potential words from the company's website and save them in a separate list.
 
 ### Cracking Miscellaneous Files & Hashes
 
