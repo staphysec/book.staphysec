@@ -31,7 +31,7 @@
 ## Linux
 
 * [EOP Linux Tools and Resources](linux/eop-linux-tools-and-resources.md)
-* [Page 1](linux/page-1.md)
+* [Blogs](linux/blogs.md)
 
 ## Windows
 
