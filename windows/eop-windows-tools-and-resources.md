@@ -11,6 +11,7 @@ Compiled [binaries](https://github.com/r3motecontrol/Ghostpack-CompiledBinaries)
 ### Useful Tools :&#x20;
 
 * [Seatbelt](https://github.com/GhostPack/Seatbelt)  is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+* CME [DOC](https://mpgn.gitbook.io/crackmapexec/getting-started/selecting-and-using-a-protocol)
 * [PowerUp](https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1) PowerShell script  Windows privilege escalation vectors that rely on misconfigurations. It can also be used to exploit some of the issues found.
 * [SharpUp](https://github.com/GhostPack/SharpUp) SharpUp is a C# port of various PowerUp functionality
 * [JAWS](https://github.com/411Hall/JAWS) Just Another Windows (Enum) Script.
