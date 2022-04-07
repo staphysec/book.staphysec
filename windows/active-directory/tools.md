@@ -12,6 +12,14 @@ This [document](https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.
 
 info on all the various switches, check this [post ](https://blog.cptjesus.com/posts/newbloodhoundingestor)by @CptJesus
 
+## neo4s password reset
+
+locate neo4j | grep auth
+
+then delete /usr/share/neo4j/data/dbms/auth
+
+
+
 ### Cypher Queries
 
 A Cypher reference card showing commands and their syntax can be found [here](https://neo4j.com/docs/cypher-refcard/current/).
