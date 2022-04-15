@@ -1,6 +1,9 @@
 # Useful commands and Modules
 
+```
+gci -recurse . | select fullname # List all the files
 
+```
 
 [Windows commands reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) is very handy for performing manual enumeration tasks.
 
