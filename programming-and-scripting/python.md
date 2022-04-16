@@ -5,6 +5,11 @@
 * Requests ([Documentaton](https://docs.python-requests.org/en/latest/)).
 * OS PATH ([Doc](https://www.geeksforgeeks.org/os-path-module-python/))
 
+```
+os.system('java -jar ysoserial.jar %s "%s" > %s.txt' % (payload, cmd, payload))
+payload_file = open('./' + payload + '.txt', 'rb')
+```
+
 ## BeautifulSoup&#x20;
 
 Link [tutorial](https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/). Web Scraping with Python Using Beautiful Soup
