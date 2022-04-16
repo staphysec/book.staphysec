@@ -36,6 +36,7 @@
 
 ## Windows
 
+* [CheatSheet](windows/cheatsheet.md)
 * [EOP  Windows Tools and Resources](windows/eop-windows-tools-and-resources.md)
 * [Useful commands and Modules](windows/useful-commands-and-modules.md)
 * [Active Directory](windows/active-directory/README.md)
