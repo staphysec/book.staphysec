@@ -5,6 +5,20 @@
 * Requests ([Documentaton](https://docs.python-requests.org/en/latest/)).
 * OS PATH ([Doc](https://www.geeksforgeeks.org/os-path-module-python/))
 
+## Subprocess&#x20;
+
+```
+print(check_output(cmd).decode().strip(,end='\r')
+server = datetime.strptime(requests.head(URL).headers['Date'], '%a, %d %b %Y %X %Z')
+offset = int((server - kali).total_seconds())
+```
+
+## Time
+
+```
+datetime.utcnow() # get current time
+```
+
 ```
 os.system('java -jar ysoserial.jar %s "%s" > %s.txt' % (payload, cmd, payload))
 payload_file = open('./' + payload + '.txt', 'rb')
