@@ -11,7 +11,8 @@
 print(check_output(cmd).decode().strip(,end='\r')
 server = datetime.strptime(requests.head(URL).headers['Date'], '%a, %d %b %Y %X %Z')
 offset = int((server - kali).total_seconds())
-offset = int((server - kali).total_seconds())
+f'--use-time={"%+d" % offset}' # %+d 'd for decimal / + for
+
 ```
 
 ## Time
