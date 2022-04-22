@@ -1,5 +1,11 @@
 # Tools
 
+## Ldap install
+
+```
+apt install python3-ldap
+```
+
 ## Bloodhound
 
 [SharpHound](https://blog.cptjesus.com/posts/sharphoundtargeting): Target Selection and API Usage.
