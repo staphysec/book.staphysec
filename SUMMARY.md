@@ -13,6 +13,7 @@
 
 ## Tools
 
+* [Cracking](tools/cracking.md)
 * [Information Gathering](tools/information-gathering.md)
 * [XSS](tools/xss.md)
 * [Obfuscation](tools/obfuscation.md)

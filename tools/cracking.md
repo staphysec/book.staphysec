@@ -1,0 +1,7 @@
+# Cracking
+
+
+
+```
+fcrackzip #cracking file
+```
