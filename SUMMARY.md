@@ -9,6 +9,7 @@
   * [Linux File Transfer](file-transfer/linux-file-transfer.md)
   * [HTTP/SMB/Nginx/Web Servers/Netcat](file-transfer/http-smb-nginx-web-servers-netcat.md)
 * [Hashcat](hashcat.md)
+* [Cheatsheet](cheatsheet.md)
 * [Curl](curl.md)
 
 ## Tools
