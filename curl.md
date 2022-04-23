@@ -1,6 +1,7 @@
 # Curl
 
 ````
+curl http://dada.com -output - #to tell its not binary file
 #GET Request
 #-v for verbose output
 Staphy$ curl http://staphysce.com/ -v 
